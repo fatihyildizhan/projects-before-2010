@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29905.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FyDoxaPcKapatici", "FyDoxaPcKapatici\FyDoxaPcKapatici.csproj", "{8EFB410C-385F-4110-A11E-A1E38556B57F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8EFB410C-385F-4110-A11E-A1E38556B57F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EFB410C-385F-4110-A11E-A1E38556B57F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EFB410C-385F-4110-A11E-A1E38556B57F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EFB410C-385F-4110-A11E-A1E38556B57F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6F2DDE23-A658-4003-942C-75D34F0ED673}
+	EndGlobalSection
+EndGlobal
