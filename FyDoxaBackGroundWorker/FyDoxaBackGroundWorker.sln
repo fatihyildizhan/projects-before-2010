@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29905.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FyDoxaBackGroundWorker", "FyDoxaBackGroundWorker\FyDoxaBackGroundWorker.csproj", "{9EB67E02-4D56-4EEA-8BF4-FDAB319BBF40}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9EB67E02-4D56-4EEA-8BF4-FDAB319BBF40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EB67E02-4D56-4EEA-8BF4-FDAB319BBF40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EB67E02-4D56-4EEA-8BF4-FDAB319BBF40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EB67E02-4D56-4EEA-8BF4-FDAB319BBF40}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9B96D890-0A9F-411A-A7A8-48094F4FD307}
+	EndGlobalSection
+EndGlobal
