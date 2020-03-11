@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoxaKutuphane", "DoxaKutuphane\DoxaKutuphane.csproj", "{E00D9709-D329-4BBD-8B88-10E0A5DA4A5E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E00D9709-D329-4BBD-8B88-10E0A5DA4A5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E00D9709-D329-4BBD-8B88-10E0A5DA4A5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E00D9709-D329-4BBD-8B88-10E0A5DA4A5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E00D9709-D329-4BBD-8B88-10E0A5DA4A5E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

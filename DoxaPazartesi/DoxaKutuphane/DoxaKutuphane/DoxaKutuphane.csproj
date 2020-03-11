@@ -1,0 +1,288 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E00D9709-D329-4BBD-8B88-10E0A5DA4A5E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DoxaKutuphane</RootNamespace>
+    <AssemblyName>DoxaKutuphane</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DoxaKutuphaneDAL, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\DoxaKutuphaneDAL\DoxaKutuphaneDAL\bin\Debug\DoxaKutuphaneDAL.dll</HintPath>
+    </Reference>
+    <Reference Include="DoxaMethodsDAL, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\DoxaMethodsDAL\DoxaMethodsDAL\bin\Debug\DoxaMethodsDAL.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmAnaMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAnaMenu.Designer.cs">
+      <DependentUpon>frmAnaMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmGiris.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGiris.Designer.cs">
+      <DependentUpon>frmGiris.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLoad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLoad.Designer.cs">
+      <DependentUpon>frmLoad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kategori\frmKategoriAra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kategori\frmKategoriAra.Designer.cs">
+      <DependentUpon>frmKategoriAra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kategori\frmKategoriEkle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kategori\frmKategoriEkle.Designer.cs">
+      <DependentUpon>frmKategoriEkle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kategori\frmKategoriSil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kategori\frmKategoriSil.Designer.cs">
+      <DependentUpon>frmKategoriSil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kitap\frmKitapAra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kitap\frmKitapAra.Designer.cs">
+      <DependentUpon>frmKitapAra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kitap\frmKitapAraDinamik.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kitap\frmKitapAraDinamik.Designer.cs">
+      <DependentUpon>frmKitapAraDinamik.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kitap\frmKitapEkle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kitap\frmKitapEkle.Designer.cs">
+      <DependentUpon>frmKitapEkle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kitap\frmKitapGuncelle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kitap\frmKitapGuncelle.Designer.cs">
+      <DependentUpon>frmKitapGuncelle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kullanici\frmKullaniciEkle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kullanici\frmKullaniciEkle.Designer.cs">
+      <DependentUpon>frmKullaniciEkle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="YayinEvi\frmYayinEviAra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="YayinEvi\frmYayinEviAra.Designer.cs">
+      <DependentUpon>frmYayinEviAra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="YayinEvi\frmYayinEviEkle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="YayinEvi\frmYayinEviEkle.Designer.cs">
+      <DependentUpon>frmYayinEviEkle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="YayinEvi\frmYayinEviGuncelle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="YayinEvi\frmYayinEviGuncelle.Designer.cs">
+      <DependentUpon>frmYayinEviGuncelle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="YayinEvi\frmYayinEviSil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="YayinEvi\frmYayinEviSil.Designer.cs">
+      <DependentUpon>frmYayinEviSil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Yazar\frmYazarAra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Yazar\frmYazarAra.Designer.cs">
+      <DependentUpon>frmYazarAra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Yazar\frmYazarEkle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Yazar\frmYazarEkle.Designer.cs">
+      <DependentUpon>frmYazarEkle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Yazar\frmYazarGuncelle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Yazar\frmYazarGuncelle.Designer.cs">
+      <DependentUpon>frmYazarGuncelle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Yazar\frmYazarSil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Yazar\frmYazarSil.Designer.cs">
+      <DependentUpon>frmYazarSil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmAnaMenu.resx">
+      <DependentUpon>frmAnaMenu.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGiris.resx">
+      <DependentUpon>frmGiris.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLoad.resx">
+      <DependentUpon>frmLoad.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kategori\frmKategoriAra.resx">
+      <DependentUpon>frmKategoriAra.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kategori\frmKategoriEkle.resx">
+      <DependentUpon>frmKategoriEkle.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kategori\frmKategoriSil.resx">
+      <DependentUpon>frmKategoriSil.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kitap\frmKitapAra.resx">
+      <DependentUpon>frmKitapAra.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kitap\frmKitapAraDinamik.resx">
+      <DependentUpon>frmKitapAraDinamik.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kitap\frmKitapEkle.resx">
+      <DependentUpon>frmKitapEkle.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kitap\frmKitapGuncelle.resx">
+      <DependentUpon>frmKitapGuncelle.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kullanici\frmKullaniciEkle.resx">
+      <DependentUpon>frmKullaniciEkle.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="YayinEvi\frmYayinEviAra.resx">
+      <DependentUpon>frmYayinEviAra.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="YayinEvi\frmYayinEviEkle.resx">
+      <DependentUpon>frmYayinEviEkle.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="YayinEvi\frmYayinEviGuncelle.resx">
+      <DependentUpon>frmYayinEviGuncelle.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="YayinEvi\frmYayinEviSil.resx">
+      <DependentUpon>frmYayinEviSil.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Yazar\frmYazarAra.resx">
+      <DependentUpon>frmYazarAra.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Yazar\frmYazarEkle.resx">
+      <DependentUpon>frmYazarEkle.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Yazar\frmYazarGuncelle.resx">
+      <DependentUpon>frmYazarGuncelle.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Yazar\frmYazarSil.resx">
+      <DependentUpon>frmYazarSil.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kutuphane.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Library.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\userAvatars\avt.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
