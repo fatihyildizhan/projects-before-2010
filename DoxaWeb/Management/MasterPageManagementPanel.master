@@ -1,0 +1,80 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPageManagementPanel.master.cs" Inherits="Management_MasterPageManagementPanel" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "//www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+<head id="Head1" runat="server">
+<title>FyDoxa 09</title>
+<asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+<link rel="stylesheet" type="text/css" href="~/MasterPageManagementPanel.css" media="screen" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="robots" content="noindex,nofollow,noimageindex,noimageclick,noarchive" />
+        </head>
+<body>
+    <p>
+        &quot;&quot;</p>
+        
+    <form id="form1" runat="server">
+        <div>
+            <div class="top">
+                <div class="header">
+	                <div class="left">&nbsp;&nbsp;&nbsp;Fatih YILDIZHAN</div>
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder3" runat="server">
+                      <div class="right">
+                      </div>
+                    </asp:ContentPlaceHolder>
+                </div>	
+            </div>
+            <div class="container">	
+	            <div class="navigation">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+                        <a href="../index.aspx" title="Anasayfa">Anasayfa</a>
+	                    <a href="../haberler.aspx" title="Haberler">Security</a>
+	                    <a href="../User/download.aspx" title="download">Application</a>
+	                    <a href="../hakkimda.aspx" title="hakkimda">Provider</a>
+                        <div class="clearer"><span></span></div>
+                    </asp:ContentPlaceHolder>
+                </div>
+
+	            <div class="main">		
+            		
+	              <div class="content">
+	                  <asp:SiteMapPath ID="SiteMapPath1" runat="server" Font-Names="Verdana" 
+                          Font-Size="0.8em" PathSeparator=" : ">
+                          <PathSeparatorStyle Font-Bold="True" ForeColor="#5D7B9D" />
+                          <CurrentNodeStyle ForeColor="#333333" />
+                          <NodeStyle Font-Bold="True" ForeColor="#7C6F57" />
+                          <RootNodeStyle Font-Bold="True" ForeColor="#5D7B9D" />
+                      </asp:SiteMapPath>
+                      <br/>
+	                <br/>
+	                <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+                        <div class="navigationProfilim">
+                            <a href="#" title="profilim">Üye İşlemleri</a>
+	                        <a href="#" title="guncelle">Makale İşlemleri</a>&nbsp;&nbsp;&nbsp;
+                            <a href="#" title="mesajlar">Mesajlar</a>
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                        </div>
+                        
+                    </asp:ContentPlaceHolder>
+	                  </div>
+	                  <br />
+		            <div class="clearer"><span></span></div>
+
+	            </div>
+
+	            <div class="footer">Graphic Design by  Gi - Code Design by 
+	            <a href="../hakkimda.aspx" title="Gi&Doxa">DoXa</a>
+	            </div>
+	            
+            </div>
+        </div>
+    </form>
+</body>
+</html>

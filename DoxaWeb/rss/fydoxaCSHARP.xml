@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Fatih YILDIZHAN Csharp rss</title>
+    <link>http://www.fatihyildizhan.com</link>
+    <description>Fatih YILDIZHAN Csharp rss</description>
+    <image>
+      <title>Fatih YILDIZHAN</title>
+      <width>60</width>
+      <height>60</height>
+      <link>http://www.fatihyildizhan.com</link>
+      <url>img/fyRSS.jpg</url>
+    </image>
+
+	  
+	  
+	  <item>
+      <title>Adam Asmaca</title>
+      <description>C# ile yazılmış 5 harfli kelimeler ile oynanabilen bir uygulama</description>
+      <link>http://www.fatihyildizhan.com/User/MakaleGoster.aspx?id=11</link>
+	  <pubDate>01.03.2009 22:45:01</pubDate>
+    </item>
+	  
+    <item>
+      <title>C# Poker Uygulaması</title>
+      <description>C# ile yazılmış 4 oyuncuya 5'er kart dağıtan üzerine geldiğinizde elinizde kaç tane çift veya üçlü olduğunu gösteren bir uygulama.</description>
+      <link>http://www.fatihyildizhan.com/User/MakaleGoster.aspx?id=19</link>
+      <pubDate>01.03.2009 23:03:34</pubDate>
+    </item>
+    <item>
+      <title>C# Asker Dağıtma Uygulaması</title>
+      <description>C# ile yazılmış Asker ve bölge ekleyip askerleri rastgele şekilde bölgelere dağıtan bir uygulama.</description>
+      <link>http://www.fatihyildizhan.com/User/MakaleGoster.aspx?id=20</link>
+      <pubDate>01.03.2009 23:05:07</pubDate>
+    </item>
+    <item>
+      <title>C# Okul Uygulaması</title>
+      <description>C# ile yazılmış ders , öğrenci , öğretmen , sınıf ekleme ve arama uygulaması.</description>
+      <link>http://www.fatihyildizhan.com/User/MakaleGoster.aspx?id=21</link>
+      <pubDate>01.03.2009 23:06:49</pubDate>
+    </item>
+    <item>
+      <title>C# Otobüs Uygulaması</title>
+      <description>C# ile yazılmış Otobüs ve sefer ekleme ve sorgulama uygulaması.</description>
+      <link>http://www.fatihyildizhan.com/User/MakaleGoster.aspx?id=22</link>
+      <pubDate>01.03.2009 23:07:46</pubDate>
+    </item>
+    <item>
+      <title>C# Bilgisayar Kapatıcı</title>
+      <description>C# ile yazılmış  bilgisayarınızı istediğiniz zamanda kapatmanıza olanak sağlayan bir uygulama.</description>
+      <link>http://www.fatihyildizhan.com/User/MakaleGoster.aspx?id=23</link>
+      <pubDate>01.03.2009 23:08:53</pubDate>
+    </item>
+    <item>
+      <title>C# Slot Makinası</title>
+      <description>C# ile yazılmış bir slot oyun uygulaması. Jeton ve Para eklentileri mevcuttur. 4 farklı resmi bulan kazanır.</description>
+      <link>http://www.fatihyildizhan.com/User/MakaleGoster.aspx?id=24</link>
+      <pubDate>01.03.2009 23:10:40</pubDate>
+    </item>
+    <item>
+      <title>C# Ünlü Uyumu</title>
+      <description>C# ile yazılmış büyük ünlü uyumu uygulaması. Boşluk bırakmayın hele sessiz harf girmemeyi asla !</description>
+      <link>http://www.fatihyildizhan.com/User/MakaleGoster.aspx?id=25</link>
+      <pubDate>01.03.2009 23:11:57</pubDate>
+    </item>
+  </channel>
+</rss>

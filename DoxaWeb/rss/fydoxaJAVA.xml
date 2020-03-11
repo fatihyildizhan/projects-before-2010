@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Fatih YILDIZHAN Java rss</title>
+    <link>http://www.fatihyildizhan.com</link>
+    <description>Fatih YILDIZHAN Java rss</description>
+    <image>
+      <title>Fatih YILDIZHAN</title>
+      <width>60</width>
+      <height>60</height>
+      <link>http://www.fatihyildizhan.com</link>
+      <url>img/fyRSS.jpg</url>
+    </image>
+    <item>
+      <title>Hangi yılın kaçıncı ayı kaç gün?</title>
+      <description>Girdiğiniz yılın istediğiniz ayında kaç gün var öğrenin.</description>
+      <link>http://www.fatihyildizhan.com/User/MakaleGoster.aspx?id=3</link>
+      <pubDate>18.02.2009 17:38:27</pubDate>
+    </item>
+    <item>
+      <title>Alışveriş Sepeti</title>
+      <description>Birkaç kategori ve ürünün bulunduğu ve istediğiniz kadar alışveris yapabileceğiniz bir uygulama</description>
+      <link>http://www.fatihyildizhan.com/User/MakaleGoster.aspx?id=4</link>
+      <pubDate>18.02.2009 17:39:42</pubDate>
+    </item>
+    <item>
+      <title>Amiral Battı Oyunu Java</title>
+      <description>Konsola koordinatları girerek gemileri batırmayı deneyin.</description>
+      <link>http://www.fatihyildizhan.com/User/MakaleGoster.aspx?id=5</link>
+      <pubDate>18.02.2009 17:40:57</pubDate>
+    </item>
+    <item>
+      <title>XOX yada TicTacToe Java</title>
+      <description>3 tane X veya O harfini  ilk yerleştiren kazanır...  </description>
+      <link>http://www.fatihyildizhan.com/User/MakaleGoster.aspx?id=6</link>
+      <pubDate>18.02.2009 17:42:06</pubDate>
+    </item>
+    <item>
+      <title>Sayisal Loto </title>
+      <description>Limitlerini sizin belirlediğiniz bir sayısal loto oyunu ...</description>
+      <link>http://www.fatihyildizhan.com/User/MakaleGoster.aspx?id=7</link>
+      <pubDate>18.02.2009 17:43:29</pubDate>
+    </item>
+    <item>
+      <title>Tahmin Oyunu</title>
+      <description>Bilgisayarın ürettiği sayıları tahmin etmeye çalışın...</description>
+      <link>http://www.fatihyildizhan.com/User/MakaleGoster.aspx?id=8</link>
+      <pubDate>18.02.2009 17:45:21</pubDate>
+    </item>
+    <item>
+      <title>Fibonacci Sayılarını Yazdırma</title>
+      <description>Fibonacci sayılarını konsolda yazdıran bir uygulama</description>
+      <link>http://www.fatihyildizhan.com/User/MakaleGoster.aspx?id=12</link>
+      <pubDate>01.03.2009 22:51:41</pubDate>
+    </item>
+    <item>
+      <title>Logaritma alma uygulaması</title>
+      <description>Sayıların logaritmasını almaya yarayan bir java konsol uygulaması</description>
+      <link>http://www.fatihyildizhan.com/User/MakaleGoster.aspx?id=13</link>
+      <pubDate>01.03.2009 22:53:49</pubDate>
+    </item>
+    <item>
+      <title>PI Sayısı</title>
+      <description>Pı sayısına girdiğiniz değer kadar yaklaşabileceği bir uygulama</description>
+      <link>http://www.fatihyildizhan.com/User/MakaleGoster.aspx?id=14</link>
+      <pubDate>01.03.2009 22:55:04</pubDate>
+    </item>
+    <item>
+      <title>Öğrenci Not Sistemi</title>
+      <description>Birkaç öğrenci bilgisini yazdıran java konsol uygulaması</description>
+      <link>http://www.fatihyildizhan.com/User/MakaleGoster.aspx?id=15</link>
+      <pubDate>01.03.2009 22:56:33</pubDate>
+    </item>
+    <item>
+      <title>Poker Uygulaması</title>
+      <description>Sayısını belirlediğiniz oyunculara 5 er farklı kart dağıtan bir uygulama</description>
+      <link>http://www.fatihyildizhan.com/User/MakaleGoster.aspx?id=16</link>
+      <pubDate>01.03.2009 22:59:03</pubDate>
+    </item>
+  </channel>
+</rss>

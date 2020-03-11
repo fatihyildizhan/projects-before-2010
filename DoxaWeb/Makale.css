@@ -1,0 +1,29 @@
+﻿#table {
+ font-size:0.9em;
+ font-family: Arial, Helvetica, verdana sans-serif;
+ background-color:#fff;
+ border-collapse: collapse;
+ width: 100%;
+}
+#table tr {
+ background-color:#fff;
+ border-bottom: 1px solid #f0f0f0;
+}
+#table td {
+ color:#414141;
+ text-align:left;
+}
+#table th {
+ text-align:left;
+}
+#table td a, tbody th a {
+ color:#6C8C37;
+ text-decoration:none;
+ font-weight:normal; 
+ display:block;
+ font-size:small;
+}
+#table td a:hover, tbody th a:hover {
+ color:#009193;
+ text-decoration:none;
+}

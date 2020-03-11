@@ -1,0 +1,154 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPageUyeler.master.cs" Inherits="User_MasterPageUyeler" %>
+
+<%@ Register src="istatistikUye.ascx" tagname="istatistikUye" tagprefix="uc3" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "//www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+<head id="Head1" runat="server">
+<title>Fatih Yýldýzhan - FyDoxa 2009 - Kiþisel Web Sitesi</title>
+<link href="../MasterPageUyeler.css" rel="stylesheet" type="text/css" />
+<asp:ContentPlaceHolder id="head" runat="server"></asp:ContentPlaceHolder>
+
+        </head>
+<body>
+    <p>
+        &quot;&quot;</p>
+    <form id="form1" runat="server">
+        <div>
+            <div class="top">
+                <div class="header">
+	                <div class="left">&nbsp;&nbsp;&nbsp;Fatih YILDIZHAN</div>
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder3" runat="server">
+                      <div class="right">
+                          <uc3:istatistikUye ID="istatistikUye1" runat="server" />
+                      </div>
+                    </asp:ContentPlaceHolder>
+                </div>	
+            </div>
+            <div class="container">	
+	            <div class="navigation">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+                        <a href="../index.aspx" title="Anasayfa">Anasayfa</a>
+	                    <a href="../haberler.aspx" title="konular">Haberler</a>
+	                    <a href="https://www.fatihyildizhan.com/User/download.aspx" title="download">
+                        Download</a>
+	                    <a href="../hakkimda.aspx" title="hakkimda">Hakkýmda</a>
+	                    <a href="../linkler.aspx" title="linkler">Linkler </a>
+	                    <a href="../iletisim.aspx" title="iletisim">Ýletiþim</a>
+                        <div class="clearer"><span></span></div>
+                    </asp:ContentPlaceHolder>
+                </div>
+
+	            <div class="main">		
+            		
+	              <div class="content">
+	                  <asp:SiteMapPath ID="SiteMapPath1" runat="server" Font-Names="Verdana" 
+                          Font-Size="0.8em" PathSeparator=" : ">
+                          <PathSeparatorStyle Font-Bold="True" ForeColor="#5D7B9D" />
+                          <CurrentNodeStyle ForeColor="#333333" />
+                          <NodeStyle Font-Bold="True" ForeColor="#7C6F57" />
+                          <RootNodeStyle Font-Bold="True" ForeColor="#5D7B9D" />
+                      </asp:SiteMapPath>
+                      <br/>
+	                <br/>
+	                <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+                        <div class="navigationProfilim">
+                            <a href="https://www.fatihyildizhan.com/User/profilim.aspx" title="profilim">
+                            Profilim</a>
+	                        <a href="https://www.fatihyildizhan.com/User/guncelle.aspx" title="guncelle">
+                            Güncelle</a>
+	                        <a href="https://www.fatihyildizhan.com/User/pwdChange.aspx" title="sifrem">
+                            Þifrem</a>
+	                        <a href="https://www.fatihyildizhan.com/User/istatistik.aspx" title="istatistik">
+                            Ýstatistik</a>
+	                        <a href="https://www.fatihyildizhan.com/User/ayarlar.aspx" title="ayarlar">
+                            Ayarlar</a>
+                            <a href="https://www.fatihyildizhan.com/User/mesajlar.aspx" title="mesajlar">
+                            Mesajlar</a>
+                            <br />
+                        </div>
+                    </asp:ContentPlaceHolder>
+                    <br/>
+                      <asp:ContentPlaceHolder ID="ContentPlaceHolder4" runat="server">
+                      <div>
+                      
+                          </div>
+                      </asp:ContentPlaceHolder>
+	                  </div>
+	                  <br />
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder5" runat="server">
+                    <div class="sidenav">
+			<h2>Programlama Dilleri</h2>
+			<ul>
+                <li><a href="../java.aspx" title="java">Java</a></li>
+		        <li><a href="../cSharp.aspx" title="cSharp">C#</a></li>
+		        <li><a href="../adoNet.aspx" title="adoNet">ADO.NET</a></li>
+		        <li><a href="../xml.aspx" title="xml">XML</a></li>
+		        <li><a href="../html.aspx" title="html">Html</a></li>
+		        <li><a href="../transactSql.aspx" title="transactSql">Transact-SQL</a></li>			                           
+		    </ul>
+			<h2>Programlar</h2>
+			<ul>
+				 <li><a href="../eclipse.aspx" title="eclipse">Eclipse</a></li>
+		         <li><a href="../visualStudio.aspx" title="visualStudio">Visual Studio</a></li>
+		         <li><a href="../sqlServer.aspx" title="sqlServer">Sql Server</a></li>
+			</ul>
+			<h2>Üye Paneli</h2>
+			<ul>
+				 <li>
+                     <asp:LoginStatus ID="LoginStatus1" runat="server" LoginText="Giriþ" 
+                         LogoutText="Güvenli Çýkýþ" LogoutPageUrl="https://www.fatihyildizhan.com/login.aspx" />
+                 </li>
+                <asp:LoginView ID="LoginView1" runat="server">
+                    <RoleGroups>
+                        <asp:RoleGroup Roles="Admin">
+                            <ContentTemplate>
+                                <li>
+                                    <asp:HyperLink ID="HyperLink1" runat="server" 
+                                        NavigateUrl="https://www.fatihyildizhan.com/User/userPanel.aspx" Width="104px">Profilim</asp:HyperLink>
+                               </li>
+                               <li>
+                                   <asp:HyperLink ID="HyperLink3" runat="server" 
+                                       NavigateUrl="https://www.fatihyildizhan.com/Management/adminPanel.aspx" Width="107px">Yönetim Paneli</asp:HyperLink>
+                               </li>
+                            </ContentTemplate>
+                        </asp:RoleGroup>
+                    </RoleGroups>
+                    <LoggedInTemplate>
+                        <li>
+                            <asp:HyperLink ID="HyperLink2" runat="server" 
+                                NavigateUrl="https://www.fatihyildizhan.com/User/userPanel.aspx" Width="97px">Profilim &gt;&gt;&gt;</asp:HyperLink></li>
+                    </LoggedInTemplate>
+                    <AnonymousTemplate>
+                        <li>
+                            <asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="~/sozlesme.aspx" 
+                                Width="104px">Kayýt Ol &gt;&gt;&gt;</asp:HyperLink>
+                        </li>
+                    </AnonymousTemplate>
+                </asp:LoginView>
+			</ul>		
+     </div>
+                    </asp:ContentPlaceHolder>
+		            <div class="clearer"><span></span></div>
+
+	            </div>
+<div class="footer">Code Design by 
+	             <a href="//www.fatihyildizhan.com/hakkimda.aspx" 
+	              title="FyDoxa" style="text-decoration:none;">FyDoXa </a>
+                 <asp:ImageButton ID="ImageButton1" runat="server" 
+                  ImageUrl="~/img/fatihyildizhan_rss.gif" PostBackUrl="~/rss/rssYayini.aspx" 
+                  ImageAlign="Baseline"/>                           
+	            </div>
+	            <a href="../certvalidity.htm" 
+	    
+                    title="SSL Certificate Free SSL Secure Server Certificate Branded SSL Certificate Authority Wildcard Certificates" 
+                    target="_blank">
+	            <img src="../ipsCASecuredLogoSmall.gif"  
+	             alt="ipsCA SSL Secure Certificate"  style="border-style: none" />
+	            </a>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,166 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPageSayfalar.master.cs" Inherits="MasterPageSayfalar" %>
+
+<%@ Register src="istatistik.ascx" tagname="istatistik" tagprefix="uc1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "//www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+<head id="Head1" runat="server">
+<asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+<link rel="stylesheet" type="text/css" href="MasterPageSayfalar.css" media="screen" />
+
+<title></title>
+
+<style type="text/css">                                
+    #style6
+    {
+        width: 100%;
+        height: 100%;
+    } 
+</style>
+        </head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <div class="top">
+                <div class="header">
+	                <div class="left">&nbsp;&nbsp;&nbsp;Fatih YILDIZHAN
+	                
+                    </div>
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder3" runat="server">
+                      <div class="right">
+                        
+                          <uc1:istatistik ID="istatistik1" runat="server" />
+                        
+                    </div>
+                    </asp:ContentPlaceHolder>
+                </div>	
+            </div>
+            <div class="container">	
+
+	            <div class="navigation">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+                        <a href="index.aspx" title="Anasayfa">Anasayfa</a>
+	                    <a href="haberler.aspx" title="konular">Haberler </a>
+	                    <a href="https://www.fatihyildizhan.com/User/download.aspx" title="download">
+                        Download </a>
+	                    <a href="hakkimda.aspx" title="hakkimda">Hakkýmda </a>
+	                    <a href="linkler.aspx" title="linkler">Linkler </a>
+	                    <a href="iletisim.aspx" title="iletisim">Ýletiþim </a>
+                        <div class="clearer"><span></span></div>
+                    </asp:ContentPlaceHolder>
+                </div>
+
+	            <div class="main">		
+            		
+	              <div class="content">
+	                  <asp:SiteMapPath ID="SiteMapPath1" runat="server" Font-Names="Verdana" 
+                          Font-Size="0.8em" PathSeparator=" : ">
+                          <PathSeparatorStyle Font-Bold="True" ForeColor="#5D7B9D" />
+                          <CurrentNodeStyle ForeColor="#333333" />
+                          <NodeStyle Font-Bold="True" ForeColor="#7C6F57" />
+                          <RootNodeStyle Font-Bold="True" ForeColor="#5D7B9D" />
+                      </asp:SiteMapPath>
+                      <br />
+	                <br/>
+	                  <asp:ContentPlaceHolder ID="ContentPlaceHolder4" runat="server">
+                         <div></div>
+                      </asp:ContentPlaceHolder>
+	                  <br />
+	                  </div>
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    <div class="sidenav">
+			<h2>Programlama Dilleri</h2>
+			<ul>
+                <li><a href="java.aspx" title="java">Java </a></li>
+		        <li><a href="cSharp.aspx" title="cSharp">C# </a></li>
+		        <li><a href="adoNet.aspx" title="adoNet">ADO.NET </a></li>
+		        <li><a href="xml.aspx" title="xml">XML </a></li>
+		        <li><a href="html.aspx" title="html">Html </a></li>
+		        <li><a href="transactSql.aspx" title="transactSql">
+                    Transact-SQL</a></li>			                          
+		    </ul>
+			<h2>Programlar</h2>
+			<ul>
+				 <li><a href="eclipse.aspx" title="eclipse">Eclipse </a></li>
+		         <li><a href="visualStudio.aspx" title="visualStudio">
+                     Visual Studio </a></li>
+		         <li><a href="sqlServer.aspx" title="sqlServer">Sql Server</a></li>
+			</ul>
+			<h2>Üye Paneli</h2>
+			<ul>
+                <asp:LoginView ID="LoginView1" runat="server">
+                    <RoleGroups>
+                        <asp:RoleGroup Roles="Admin">
+                            <ContentTemplate>
+                                <li>
+                               </li>
+                                <li>
+                                    <asp:LoginName ID="LoginName1" runat="server" Font-Size="Small" 
+                                        FormatString="Hoþgeldin : {0}" />
+                                </li>
+                                <asp:HyperLink ID="HyperLink1" runat="server" 
+                                    NavigateUrl="https://www.fatihyildizhan.com/user/userPanel.aspx" Width="104px">Profilim</asp:HyperLink>
+                               <li>
+                                   <asp:HyperLink ID="HyperLink3" runat="server" 
+                                       NavigateUrl="https://www.fatihyildizhan.com/Management/adminPanel.aspx" Width="107px">Yönetim Paneli</asp:HyperLink>
+                               </li>
+                            </ContentTemplate>
+                        </asp:RoleGroup>
+                    </RoleGroups>
+                    <LoggedInTemplate>
+                       <li>
+                           <asp:LoginName ID="LoginName1" runat="server" Font-Size="Small" 
+                               FormatString="Hoþgeldin : {0}" Font-Italic="True" />
+                       </li>
+                        <li>
+                            <asp:HyperLink ID="HyperLink2" runat="server" 
+                                NavigateUrl="https://www.fatihyildizhan.com/user/userPanel.aspx" Width="97px">Profilim &gt;&gt;&gt;</asp:HyperLink></li> 
+                    </LoggedInTemplate>
+                    <AnonymousTemplate>
+                        <li>
+                            <asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="~/sozlesme.aspx" 
+                                Width="104px">Kayýt Ol &gt;&gt;&gt;</asp:HyperLink>
+                        </li>
+                    </AnonymousTemplate>
+                </asp:LoginView>
+                <li>
+                     <asp:LoginStatus ID="LoginStatus1" runat="server" LoginText="Giriþ" 
+                         LogoutText="Güvenli Çýkýþ" LogoutPageUrl="index.aspx" />
+                 </li>
+			</ul>
+			<h2>Yararlý Linkler</h2>
+			<ul>
+                <li><a href="//www.google.com" title="Google">Google </a></li>
+		        <li><a href="//www.yahoo.com" title="Yahoo">Yahoo </a></li>
+		        <li><a href="//www.java.com" title="Java">Java </a></li>
+		        <li><a href="//www.microsoft.com" title="Microsoft">Microsoft </a></li>
+		        <li><a href="//www.w3c.org" title="W3C">W3C </a></li>
+		        <li><a href="//www.live.com/" title="Live Search">Live Search </a></li> 
+		    </ul>
+			<br />
+     </div>
+                    </asp:ContentPlaceHolder>
+		            <div class="clearer"></div>
+	            </div>
+ <div class="footer">Code Design by 
+	             <a href="hakkimda.aspx" 
+	              title="FyDoxa" style="text-decoration:none;">FyDoXa
+                     </a>&nbsp;
+                     <asp:ImageButton ID="ImageButton1" runat="server" 
+                         ImageUrl="~/img/fatihyildizhan_rss.gif" 
+         onclick="ImageButton1_Click" />
+                </div>
+	            <a href="certvalidity.htm" 
+	             
+                    title="SSL Certificate Free SSL Secure Server Certificate Branded SSL Certificate Authority Wildcard Certificates" 
+                    target="_blank">
+	            <img src="ipsCASecuredLogoSmall.gif"  
+	             alt="ipsCA SSL Secure Certificate"  style="border-style: none" />
+	            </a>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

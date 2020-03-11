@@ -1,0 +1,11 @@
+# Contact info submission
+url: fatihyildizhan.com
+site_owner: FyDoxa
+address1: istanbul
+city: istanbul
+country: Turkey
+postal_code: 34357
+phone_number: 555 210 38 88
+display_email: mezarlikk@hotmail.com
+site_name: Fatih YILDIZHAN - FyDoxa 2009 - Kişisel Web Sitesi
+site_description: C#,asp.net 2.0,html,java,xml,ado.net,transact sql,microsoft visual studio,microsoft sql server,eclipse

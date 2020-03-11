@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+	<siteMapNode url="index.aspx" title="Anasayfa"  description="AnaSayfa İşte...">
+
+		<siteMapNode url="diller.aspx" title="Programlama Dilleri"  description="Programlama Bilgilendirme">
+			<siteMapNode url="java.aspx" title="Java"  description="Dehşet Acayiplikte Bişey" />
+			<siteMapNode url="cSharp.aspx" title="C#"  description="C#" />
+			<siteMapNode url="html.aspx" title="Html"  description="Html" />
+			<siteMapNode url="adoNet.aspx" title="ADO.NET"  description="ADO.NET" />
+			<siteMapNode url="transactSql.aspx" title="Transact-SQL"  description="Transact-SQL" />
+			<siteMapNode url="xml.aspx" title="XML"  description="XML" />
+		</siteMapNode>
+		
+		<siteMapNode url="programlar.aspx" title="Programlar"  description="Programlar">
+			<siteMapNode url="eclipse.aspx" title="Eclipse"  description="Eclipse"/>
+			<siteMapNode url="sqlServer.aspx" title="SQL-Server"  description="sqlServer"/>
+			<siteMapNode url="visualStudio.aspx" title="Visual Studio"  description="visualStudio"/>
+		</siteMapNode>
+
+		<siteMapNode url="~/User/userPanel.aspx" title="Üye Paneli"  description="uyepaneli">
+			<siteMapNode url="createNewAccount.aspx" title="Kayıt"  description="kayit"/>
+			<siteMapNode url="sozlesme.aspx" title="Sözleşme"  description="sozlesme"/>
+			<siteMapNode url="login.aspx" title="Giris"  description="giris"/>
+			<siteMapNode url="~/User/pwdchange.aspx" title="Şifremi Değiştir" description="sifredegistir"/>
+			<siteMapNode url="~/User/ayarlar.aspx" title="Profil Ayarlarım" description="ayarlar"/>
+			<siteMapNode url="~/User/guncelle.aspx" title="Bilgilerimi Güncelle" description="guncelle"/>
+			<siteMapNode url="~/User/istatistik.aspx" title="Profil İstatistiklerim" description="istatistik"/>
+			<siteMapNode url="~/User/mesajlar.aspx" title="Mesaj Paneli" description="mesajlar"/>
+			<siteMapNode url="~/User/profilim.aspx" title="Profil Bilgilerim" description="profilim"/>
+		</siteMapNode>
+
+		<siteMapNode url="~/rss/rssYayini.aspx" title="RSS Yayını"  description="RSS"></siteMapNode>
+		<siteMapNode url="haberler.aspx" title="Güncel Haberler"  description="Haberler"></siteMapNode>
+		<siteMapNode url="hakkimda.aspx" title="Hakkımda"  description="Hakkımda"></siteMapNode>
+		<siteMapNode url="linkler.aspx" title="Linkler"  description="Linkler"></siteMapNode>
+		<siteMapNode url="~/User/download.aspx" title="Download"  description="Download"></siteMapNode>
+		<siteMapNode url="iletisim.aspx" title="İletişim"  description="Iletisim"></siteMapNode>
+
+	</siteMapNode>
+</siteMap>
