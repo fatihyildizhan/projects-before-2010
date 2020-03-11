@@ -1,0 +1,130 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="TuranEmlak.master.cs"
+    Inherits="TuranEmlak.TuranEmlak" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Untitled Page</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="TuranEmlak.css" rel="stylesheet" type="text/css" />
+    <link href="default.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+    </asp:ContentPlaceHolder>
+    <div id="header">
+        <h1>
+            <a href="#">Turan Emlak</a></h1>
+    </div>
+    <div id="pages">
+        <h2>
+            Pages</h2>
+        <ul>
+            <li class="active"><a id="page1" href="#">Anasayfa</a></li>
+            <li><a id="page2" href="#">Hakkýmýzda</a></li>
+            <li><a id="page3" href="#">Referanslarýmýz</a></li>
+            <li><a id="page4" href="#">Ýletiþim</a></li>
+            <li><a id="page5" href="#">Ýletiþim</a></li>
+        </ul>
+    </div>
+    <div id="content">
+        <div id="posts">
+            <div class="post">
+                <h2 class="title">
+                    Welcome to Zion Narrows!</h2>
+                <h3 class="posted">
+                    Posted on January 1th, 2007 by Author</h3>
+                <div class="story">
+                    <p>
+                        <em><strong>Zion Narrows</strong></em> is a free template from <a href="http://www.freecsstemplates.org/">
+                            <strong>Free CSS Templates</strong></a> released under a <a href="http://creativecommons.org/licenses/by/2.5/">
+                                Creative Commons Attribution 2.5 License</a>. The header photo is from <a href="http://www.pdphoto.org/">
+                                    PDPhoto.org</a>. You're free to use it for both commercial or personal
+                        use. I only ask that you link back to <a href="http://www.freecsstemplates.org/">my
+                            site</a> in some way. Enjoy :)</p>
+                </div>
+                <div class="meta">
+                    <p>
+                        Filed under <a href="#" class="category">Uncategorized</a> | <a href="#" class="comment">
+                            1 Comment &raquo;</a></p>
+                </div>
+            </div>
+            <div class="post">
+                <h2 class="title">
+                    Sample Tags</h2>
+                <h3 class="posted">
+                    EMLAK ARAMA</h3>
+                <div class="story">
+                <tr>
+                <td>
+                    <asp:Label ID="LblKategori" runat="server" Text="Kategori"></asp:Label><br />
+                    <asp:CheckBox ID="CheckBox1" runat="server" /><br />
+                    <asp:CheckBox ID="CheckBox2" runat="server" /><br />
+                    <asp:Label ID="LblFiyat" runat="server" Text="Fiyat"></asp:Label><br />
+                    <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox><br />
+                    <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox><br />
+                    <asp:Label ID="LblReferans" runat="server" Text="Referans No"></asp:Label><br />
+                    <asp:TextBox ID="TextBox3" runat="server"></asp:TextBox><br />
+                    <asp:TextBox ID="TextBox4" runat="server"></asp:TextBox>
+                    </td>
+                  </tr> 
+                </div>
+                <div class="meta">
+                    <p>
+                        Filed under <a href="#" class="category">Uncategorized</a> | <a href="#" class="comment">
+                            1 Comment &raquo;</a></p>
+                </div>
+            </div>
+        </div>
+        <div id="categories" class="boxed">
+            <h2 class="heading">
+                Kategoriler</h2>
+            <div class="content">
+                <ul>
+                    <li class="first"><a href="#">Konut</a></li>
+                    <li><a href="#">Arsa</a></li>
+                    <li><a href="#">Ýþyeri</a></li>
+                    <li><a href="#">Yazlýk</a></li>
+                    <li><a href="#">Devremülk</a></li>
+                    <li><a href="#">Turistlik Tesis</a></li>
+                    <li><a href="#">Kooperatif</a></li>
+                    <li><a href="#">Bina</a></li>
+                    <li><a href="#">Daire</a></li>
+                </ul>
+            </div>
+        </div>
+            <div class="content">
+            </div>
+        </div>
+        <div id="blogroll" class="boxed">
+            <h2 class="heading">
+                Blogroll</h2>
+            <div class="content">
+                <ul>
+                    <li class="first"><a href="#">AnotherFriendlySite.net</a></li>
+                    <li><a href="#">CoolSite.com</a></li>
+                    <li><a href="#">MyBestFriend.com</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <ul style="text-align: center;">
+            <li><a href="">anasayfa</a></li>
+            <li><a>|</a></li>
+            <li><a href="">hizmetler</a></li>
+            <li><a>|</a></li>
+            <li><a href="">ürünler</a></li>
+            <li><a>|</a></li>
+            <li><a href="">referanslar</a></li>
+            <li><a>|</a></li>
+            <li><a href="">kariyer</a></li>
+            <li><a>|</a></li>
+            <li><a href="">site haritasý</a></li>
+        </ul>
+    </div>
+    </form>
+</body>
+</html>
