@@ -1,0 +1,3 @@
+10x10 boyutunda oynanabilen amiral battý oyunu.
+Oyunu her baþlattýðýnýzda gemiler farklý yerlere
+diziliyor. tüm gemileri vurduðunuzda oyunu kazanýyorsunuz.

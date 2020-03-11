@@ -1,0 +1,6 @@
+Oyunda, istediðiniz kadar sayý tahmini yapabilirsiniz.
+Tahmin edeceðiniz sayýlarýn limitini girebilirsiniz.
+Büyük ikramiyeyi belirledikten sonra, isterseniz sayýlarý
+siz tahmin edebilirsiniz, isterseniz bilgisayar kendisi tahmin
+ettikten sonra, bildiðiniz sayýlarla orantýlý olarak belirlediðiniz
+büyük ikramiyeden size kazandýðýný tutarý yazdýrýyor.

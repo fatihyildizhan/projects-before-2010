@@ -1,0 +1,2 @@
+Java ile yazýlmýþ 2 kiþi ile oynanan
+Tic Tac Toe veya diðer adýyla XOX oyunu.
