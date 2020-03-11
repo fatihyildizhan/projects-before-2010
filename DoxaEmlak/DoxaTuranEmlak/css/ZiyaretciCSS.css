@@ -1,0 +1,213 @@
+﻿
+#body
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	margin: 0;
+	font-size: 80%;
+	font-weight: bold;
+	
+}
+#container
+{
+	width: 1200px;
+	margin: 0 auto;
+	text-align: left;
+}
+
+#divUst
+{
+	width: 1200px;
+	height: 200px;
+}
+#menu
+{
+	height: 27px;
+	width: 1200px;
+}
+#menu ul
+{
+	margin: 0;
+	padding: 7px 0 0 0;
+	list-style: none;
+}
+#menu li
+{
+	display: inline;
+}
+#menu a
+{
+	display: block;
+	float: left;
+	height: 25px;
+	margin: 0 5px 0 0;
+	padding: 2px 25px 0 25px;
+	background: url(../resimler/ziyaretci/img03.gif) repeat-x;
+	border: 1px solid #222222;
+	text-align: center;
+	font-size: 11px;
+	font-weight: bold;
+	color: #FFFFFF;
+	width: 62px;
+}
+#menu a:hover
+{
+	background-image: url(../resimler/ziyaretci/img04.gif);
+	text-decoration: none;
+}
+#menu .active a
+{
+	background-image: url(../resimler/ziyaretci/img05.gif);
+}
+#header
+{
+	height: 43px;
+	background: url(../resimler/ziyaretci/img02.gif) repeat-x;
+}
+#anadiv
+{
+	width: 1200px;
+	height:auto;
+}
+#divKayanYazi
+{
+	width: 1200px;
+	height: 25px;
+	float: right;
+	font-size: 20px;
+	background: #cac8c8;
+}
+#sagMenuAlan
+{
+	width: 200px;
+	float: right;
+}
+
+#sagmenu
+{
+	width: 200px;
+	border-color: #677D92;
+}
+
+#sagmenu li a
+{
+	height: 32px;
+	voice-family: "\"}\"";
+	voice-family: inherit;
+	height: 24px;
+	text-decoration: none;
+	display: inline;
+}
+
+#sagmenu li a:link, #sagmenu li a:visited
+{
+	color: #fff;
+	display: block;
+	background: url(../resimler/ziyaretci/menu2.gif);
+	padding: 8px 0 0 10px;
+}
+
+#sagmenu li a:hover
+{
+	color: #283A50;
+	background: url(../resimler/ziyaretci/menu2.gif) 0 -32px;
+	padding: 8px 0 0 10px;
+}
+
+#sagmenu li a:active
+{
+	color: #283A50;
+	background: url(../resimler/ziyaretci/menu2.gif) 0 -64px;
+	padding: 8px 0 0 10px;
+}
+#divSlideDesk
+{
+	float: left;
+	margin-left: 0px;
+}
+#divEmlakAra
+{
+	width: 700px;
+	height: auto;
+}
+#divFooter
+{
+	width:950px;
+	height:80px;
+}
+
+#footer {
+	clear: both;
+	padding: 20px 50px;
+	border-top: 4px solid #393F4D;
+	background: #444C5D;
+}
+
+#footer p {
+	width: 700px;
+	margin: 0 auto;
+	font-size: x-small;
+	color: #FFFFFF;
+}
+
+#footer li
+{
+	display: inline;
+}
+
+#footer a {
+	text-decoration: underline;
+	color: #FFFFFF;
+}
+
+#footer a:hover {
+	text-decoration: underline;
+}
+
+.glossymenu
+{
+	list-style-type: none;
+	margin: 5px 0;
+	padding: 0;
+	width: 200px;
+	border: 1px solid #9A9A9A;
+	border-bottom-width: 0;
+}
+
+.glossymenu li a
+{
+	background: white url(../resimler/ziyaretci/glossyback.gif) repeat-x bottom left;
+	font: bold 15px "Lucida Grande" , "Trebuchet MS" , Verdana, Helvetica, sans-serif;
+	color: white;
+	display: block;
+	width: auto;
+	padding: 3px 0;
+	padding-left: 10px;
+	text-decoration: none;
+}
+
+
+* html .glossymenu li a
+{
+	/*IE only. Actual menu width minus left padding of A element (10px) */
+	width: 160px;
+}
+
+.glossymenu li a:visited, .glossymenu li a:active
+{
+	color: white;
+}
+
+.glossymenu li a:hover
+{
+	background-image: url(../resimler/ziyaretci/glossyback2.gif);
+}
+.divClear
+{
+	width: 1200px;
+	height: 10px;
+}
+.AramaMenu
+{
+	width: 600px;
+	float: right;
+}

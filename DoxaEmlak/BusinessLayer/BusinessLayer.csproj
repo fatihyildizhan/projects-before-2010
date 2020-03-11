@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{BEBEF975-41EC-42B9-85CA-AC35CDDA8A74}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BusinessLayer</RootNamespace>
+    <AssemblyName>BusinessLayer</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Adres\adres.cs" />
+    <Compile Include="Adres\adresEkle.cs" />
+    <Compile Include="Adres\adresGetir.cs" />
+    <Compile Include="Adres\adresGuncelle.cs" />
+    <Compile Include="Adres\adresSil.cs" />
+    <Compile Include="Cadde\cadde.cs" />
+    <Compile Include="Cadde\caddeEkle.cs" />
+    <Compile Include="Cadde\caddeGetir.cs" />
+    <Compile Include="Cadde\caddeGuncelle.cs" />
+    <Compile Include="Cadde\caddeSil.cs" />
+    <Compile Include="EmlakOzellik\emlakOzellik.cs" />
+    <Compile Include="EmlakOzellik\emlakOzellikEkle.cs" />
+    <Compile Include="EmlakOzellik\emlakOzellikGetir.cs" />
+    <Compile Include="EmlakOzellik\emlakOzellikSil.cs" />
+    <Compile Include="EmlakTip\emlakTip.cs" />
+    <Compile Include="EmlakTip\emlakTipEkle.cs" />
+    <Compile Include="EmlakTip\emlakTipGetir.cs" />
+    <Compile Include="EmlakTip\emlakTipGuncelle.cs" />
+    <Compile Include="EmlakTip\emlakTipSil.cs" />
+    <Compile Include="Emlak\emlak.cs" />
+    <Compile Include="Emlak\emlakAra.cs" />
+    <Compile Include="Emlak\emlakDetay.cs" />
+    <Compile Include="Emlak\emlakEkle.cs" />
+    <Compile Include="Emlak\emlakGetir.cs" />
+    <Compile Include="Emlak\emlakGuncelle.cs" />
+    <Compile Include="Emlak\emlakOzet.cs" />
+    <Compile Include="Emlak\emlakSil.cs" />
+    <Compile Include="Fiyat\fiyat.cs" />
+    <Compile Include="Fiyat\fiyatEkle.cs" />
+    <Compile Include="Fiyat\fiyatGetir.cs" />
+    <Compile Include="Fiyat\fiyatGuncelle.cs" />
+    <Compile Include="Fiyat\fiyatSil.cs" />
+    <Compile Include="Ilce\ilce.cs" />
+    <Compile Include="Ilce\ilceEkle.cs" />
+    <Compile Include="Ilce\ilceGetir.cs" />
+    <Compile Include="Ilce\ilceGuncelle.cs" />
+    <Compile Include="Ilce\ilceSil.cs" />
+    <Compile Include="IsitmaTip\isitmaTip.cs" />
+    <Compile Include="IsitmaTip\isitmaTipEkle.cs" />
+    <Compile Include="IsitmaTip\isitmaTipGetir.cs" />
+    <Compile Include="IsitmaTip\isitmaTipGuncelle.cs" />
+    <Compile Include="IsitmaTip\isitmaTipSil.cs" />
+    <Compile Include="Kategori\kategori.cs" />
+    <Compile Include="Kategori\kategoriEkle.cs" />
+    <Compile Include="Kategori\kategoriGetir.cs" />
+    <Compile Include="Kategori\kategoriGuncelle.cs" />
+    <Compile Include="Kategori\kategoriSil.cs" />
+    <Compile Include="OzellikTip\ozellikTip.cs" />
+    <Compile Include="OzellikTip\ozellikTipEkle.cs" />
+    <Compile Include="OzellikTip\ozellikTipGetir.cs" />
+    <Compile Include="OzellikTip\ozellikTipGuncelle.cs" />
+    <Compile Include="OzellikTip\ozellikTipSil.cs" />
+    <Compile Include="Ozellik\ozellik.cs" />
+    <Compile Include="Ozellik\ozellikEkle.cs" />
+    <Compile Include="Ozellik\ozellikGetir.cs" />
+    <Compile Include="Ozellik\ozellikGuncelle.cs" />
+    <Compile Include="Ozellik\ozellikSil.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resim\Resim.cs" />
+    <Compile Include="Resim\resimBoyutlandir.cs" />
+    <Compile Include="Sehir\sehir.cs" />
+    <Compile Include="Sehir\sehirEkle.cs" />
+    <Compile Include="Sehir\sehirGetir.cs" />
+    <Compile Include="Sehir\sehirGuncelle.cs" />
+    <Compile Include="Sehir\sehirSil.cs" />
+    <Compile Include="Semt\semt.cs" />
+    <Compile Include="Semt\semtEkle.cs" />
+    <Compile Include="Semt\semtGetir.cs" />
+    <Compile Include="Semt\semtGuncelle.cs" />
+    <Compile Include="Semt\semtSil.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DbLayer\DbLayer.csproj">
+      <Project>{0A82EAB8-6BEE-4990-9D67-D21640D39DA5}</Project>
+      <Name>DbLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ExceptionLayer\ExceptionLayer.csproj">
+      <Project>{FC9E15CC-8D60-449B-BFE1-6BB21D809A7D}</Project>
+      <Name>ExceptionLayer</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

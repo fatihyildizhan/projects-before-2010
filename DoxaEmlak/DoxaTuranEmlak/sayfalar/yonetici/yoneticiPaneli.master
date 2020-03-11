@@ -1,0 +1,84 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="yoneticiPaneli.master.cs"
+    Inherits="sayfalar_yonetici_yoneticiPaneli" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="../../css/ZiyaretciCSS.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../../shadowbox/shadowbox.css" />
+
+    <script type="text/javascript" src="../../shadowbox/shadowbox.js"></script>
+
+    <script type="text/javascript">
+        Shadowbox.init();
+    </script>
+
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="container">
+        &nbsp;<asp:ScriptManager ID="ScriptManager1" runat="server">
+        </asp:ScriptManager>
+        <table>
+            <tr>
+                <td colspan="3">
+                    <img alt="turan-emlak-oto-admin" src="../../resimler/ziyaretci/SuntanGolfVilla-Banner.jpg"
+                        style="width: 1200px; height: 219px; text-align: center" />
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    &nbsp;
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    &nbsp;
+                </td>
+                <td>
+                    <asp:Menu ID="Menu1" runat="server" BackColor="#FFFBD6" DynamicHorizontalOffset="2"
+                        Font-Names="Verdana" Font-Size="0.8em" ForeColor="#990000" StaticSubMenuIndent="10px"
+                        Height="27px" Orientation="Horizontal" Width="727px">
+                        <StaticSelectedStyle BackColor="#FFCC66" />
+                        <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                        <DynamicHoverStyle BackColor="#990000" ForeColor="White" />
+                        <DynamicMenuStyle BackColor="#FFFBD6" />
+                        <DynamicSelectedStyle BackColor="#FFCC66" />
+                        <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                        <StaticHoverStyle BackColor="#990000" ForeColor="White" />
+                        <Items>
+                            <asp:MenuItem Text="Yönetim Paneli" Value="Yönetim Paneli" NavigateUrl="~/sayfalar/yonetici/yonetimPaneli.aspx">
+                            </asp:MenuItem>
+                            <asp:MenuItem Text="Emlak Yönet" Value="Emlak Yönet" NavigateUrl="~/sayfalar/yonetici/emlakYonet.aspx">
+                            </asp:MenuItem>
+                            <asp:MenuItem Text="Adres Yönet" Value="Semt Yönet" NavigateUrl="~/sayfalar/yonetici/Yonet_Adres.aspx">
+                            </asp:MenuItem>
+                            <asp:MenuItem Text="Emlak Tipi Yönet" Value="Emlak Tipi Yönet" NavigateUrl="~/sayfalar/yonetici/Yonet_EmlakTipi.aspx">
+                            </asp:MenuItem>
+                            <asp:MenuItem Text="Isıtma Tipi Yönet" Value="Isıtma Tipi Yönet" NavigateUrl="~/sayfalar/yonetici/Yonet_IsitmaTipi.aspx">
+                            </asp:MenuItem>
+                            <asp:MenuItem Text="Özellik Yönet" Value="Ozellik Yönet" NavigateUrl="~/sayfalar/yonetici/Yonet_Ozellik.aspx">
+                            </asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/sayfalar/yonetici/Yonet_OzellikTip.aspx" Text="Özellik Tip Yönet"
+                                Value="Özellik Tip Yönet"></asp:MenuItem>
+                            <asp:MenuItem Text="Kategori Yönet" Value="Kategori Yönet" NavigateUrl="~/sayfalar/yonetici/Yonet_Kategori.aspx">
+                            </asp:MenuItem>
+                            <asp:MenuItem Text="Site Anasayfa" Value="Site Anasayfa" NavigateUrl="~/sayfalar/ziyaretci/index.aspx">
+                            </asp:MenuItem>
+                        </Items>
+                    </asp:Menu>
+                </td>
+                <td>
+                    &nbsp;
+                </td>
+            </tr>
+        </table>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>

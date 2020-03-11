@@ -1,0 +1,33 @@
+﻿ <div id="slidedeck_frame">
+            <dl class="slidedeck">
+                <dt>Turan Emlak Oto HAKKIMIZDA</dt>
+                <dd>
+                    1974 yılında halen bulunduğu yerde hizmet vermeye başlayan Turan Emlak Oto tamamıyla
+                    bir aile şirketi olup, altyapısını GÜVENİLİRLİK ve DÜRÜSTLÜK üzerine kurmuştur.
+                    Amacımız % 100 MÜŞTERİ MEMNUNİYETİ, politikamız BİR MÜŞTERİ BİN MÜŞTERİ politikasıdır.
+                    İhtiyacınız olduğunda hizmetinizdeyiz. Daima çalışma dileklerimizle ...
+                </dd>
+                <dt>KONUT</dt>
+                <dd>
+                    Turan Emlak Oto birçok semtte KONUT kiralamaktadır.</dd>
+                <dt>ARSA</dt>
+                <dd>
+                    Turan Emlak Oto birçok semtte ARSA kiralamaktadır.</dd>
+                <dt>İŞYERİ</dt>
+                <dd>
+                    Turan Emlak Oto birçok semtte İŞYERİ kiralamaktadır.</dd>
+                <dt>YAZLIK</dt>
+                <dd>
+                    Turan Emlak Oto birçok semtte YAZLIK kiralamaktadır.</dd>
+                <dt>DEVREMÜLK</dt>
+                <dd>
+                    Turan Emlak Oto birçok semtte DEVREMÜLK kiralamaktadır.</dd>
+                <dt>BİNA</dt>
+                <dd>
+                    Turan Emlak Oto birçok semtte BİNA kiralamaktadır.</dd>
+            </dl>
+        </div>
+
+        <script type="text/javascript">
+            $('.slidedeck').slidedeck();
+        </script>
