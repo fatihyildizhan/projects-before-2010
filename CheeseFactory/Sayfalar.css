@@ -1,0 +1,152 @@
+﻿body 
+{
+	background-image: url(images/zemin.gif);
+	margin:0 0 0 0;
+	color:Black;
+	font: normal 62.5% Tahoma,sans-serif;
+}
+/* structure */
+.container 
+{
+	background-color:White;
+	font-size: 1.2em;
+	margin: 0 auto;
+	width: 1001px;
+}
+/* main */
+.main {
+	border-top: 4px solid #FFF;
+}
+
+/* header */
+.top {
+	padding: 10px 10px 0;
+}
+
+/* title */
+.header 
+{	
+	background-image:url(images/header.jpg);
+	font-size: 1.2em;
+	height: 304px;
+	margin: 0 auto;
+	width: 1001px;
+	background-repeat:no-repeat;
+}
+.header .left, .header .right 
+{
+	color: #FFF;
+	height: 105px;	
+}
+.header .left 
+{
+	line-height: 105px;
+	width: 169px;
+	text-align: left;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	font-size: 2.8em;
+	font-family: "Trebuchet MS", sans-serif;
+}
+.header .right {
+	overflow: auto;
+	width: 212px;
+}
+.header .right p,.header .right h2 {padding: 0 16px;}
+.header .right h2 {padding-top: 16px; font: normal 1.6em "Trebuchet MS",sans-serif;
+	height: 87px;
+	width: 160px;
+}
+/* misc */
+.clearer {clear: both;}
+
+.left {float: left;}
+
+.right {float: right;}
+
+
+/* content */
+.content 
+{
+	margin-right:5px;
+	float:right;
+	width: 700px;
+	height: 830px;
+}
+.contIcerik
+{
+	margin-right:5px;
+	float:right;
+	width: 705px;
+	height: 700px;
+	text-align:left;
+	padding: 10px 30px 40px 20px ;
+	font-family:Trebuchet MS;
+	font-style:normal;
+	font-size:small;
+	line-height:20px;
+	}
+
+
+/* footer */
+.footer 
+{
+	background-color:#E00525;
+	color:Black;
+	font: normal 1em sans-serif;
+	line-height: 39px;
+	text-align: center;
+	text-decoration:none;
+}
+.footer a,.footer a:hover {color:Blue;}
+
+	/* sub navigation */
+.sidenav {
+	float: left;
+	width: 230px;
+}
+.sidenav h2 {
+	color: #333300;
+	font-size: 1em;
+	line-height: 30px;
+	margin: 0;
+	padding-left: 12px;
+}
+.sidenav ul {
+	padding: 0;
+	border-top: 1px solid #D8EBD8;
+}
+.sidenav li {border-bottom: 1px solid #D8EBD8;}
+.sidenav li a {
+	font-size: 1.1em;
+	color: #333300;
+	display: block;
+	padding: 8px 0 8px 5%;
+	text-decoration: none;
+	width: 95%;
+}
+.sidenav li a:hover {
+	background-color: #ebebeb;
+	color: #654;	
+}
+
+.anaMenu
+ {
+	background-color:White;
+	font-size: 1.2em;
+	margin: 0 0 0 0 inherit;
+	padding: 5px 10px 10px;
+	width: 711px;
+	height:35px;
+	}
+	
+.sitemap
+{
+	 margin-left:10px;
+	}
+	
+.sitemap:hover 
+{
+	  color:Red;
+	}	

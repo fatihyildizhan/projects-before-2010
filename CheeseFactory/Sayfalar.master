@@ -1,0 +1,131 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Sayfalar.master.cs" Inherits="Sayfalar" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Takış Gıda</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="Sayfalar.css" rel="stylesheet" type="text/css" />
+    <link href="Menu.css" rel="stylesheet" type="text/css" />
+    <style type="text/css">
+        .content
+        {
+            width: 625px;
+        }
+        
+        </style>
+   
+    <script type="text/javascript">
+       
+         function fnc(id) 
+         {
+             document.getElementById("frm1").src = "Default2.aspx?urunumId=" + id;
+             document.getElementById("frm1").style.visibility = "visible";
+         }
+    </script>
+    
+    <script type="text/javascript">
+    
+    function AC()
+    {
+        document.getElementById("discerceve").style.visibility = "visible"; 
+    }
+    
+     function KAPAT()
+    {
+        document.getElementById("discerceve").style.visibility="hidden"; 
+    }
+    </script>
+    </head>
+<body >
+   
+    <form id="form1" runat="server">
+    <asp:ScriptManager ID="ScriptManager1" runat="server">
+    </asp:ScriptManager>
+    <div class="top">
+    <div class="header">
+    </div>
+    </div>
+    <div class="container">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder3" runat="server">
+           <div  class="anaMenu">
+            <div id="stylefour">
+                <ul>
+		        <li><a href="index.aspx" title="">Anasayfa<span>Anasayfamıza hoşgeldiniz</span></a></li>
+		        <li><a href="kurumsal.aspx" title="">Kurumsal<span>Kurumsal hizmetlerimiz mevcuttur.</span></a></li>
+		        <li><a href="urunler.aspx" title="">Ürünlerimiz<span>En kaliteli ürünler hakkında bilgilenmek için tıklayın</span></a></li>
+		        <li><a href="bilgikupu.aspx" title="">Bilgi Küpü<span>Bunları biliyor musunuz?</span></a></li>
+		        <li><a href="#" title="">Haberler<span>Son gelişmeleri takip edin</span></a></li>
+		        <li><a href="iletisim.aspx" title="">İletişim<span>İstediğiniz herzaman bize ulaşabilirsiniz</span></a></li>
+	            </ul>
+            </div>
+            
+           </div>
+        </asp:ContentPlaceHolder>
+        <br />
+    <div class="main">
+    <hr />
+         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            <div class="contIcerik">
+                <asp:UpdatePanel ID="UpdatePanel1" runat="server" UpdateMode="Conditional">
+                    <ContentTemplate>
+                         PEYNİR NASIL ÜRETİLİR?<br/>
+                                <br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Süt ve türevleri Süt, yoğurt, peynir ve benzeri ürünler bu grupta yer 
+                                alır. Süt, insan organizması için gerekli pek çok besin ögesini (protein, yağ, 
+                                karbonhidrat, vitamin ve mineraller) bileşiminde hemen hemen yeterli ve dengeli 
+                                bir şekilde barındıran bir besindir. Yarım litre süt içen bir çocuk, B12 
+                                vitamini ihtiyacının yüzde 66’sını, A vitamini ihtiyacının da yüzde 41’ini 
+                                karşılayabilmektedir. Süt proteini insan organizmasında yüzde 80 civarında 
+                                kullanılarak yeni dokuların yapımı, eskiyenlerin de onarımı niçin gereklidir. 
+                                İnsan beslenmesinde gerekli olan kalsiyumun süt ve süt ürünleri olmadan alınması 
+                                mümkün değildir. Yeni doğmuş bir bebeğin vücudunda ortalama 30 gr., 
+                                yetişkinlerde ise 1000-1200 gr. kalsiyum bulunur. Vücuttaki kalsiyumun yüzde 
+                                99’u kemik ve dişlerde, geri kalanı vücut sıvılarında bulunur. Kemik dokusu 
+                                sürekli olarak yapılır ve yıkılır. Büyümenin hızlı olduğu çocukluk ve ergenlik 
+                                döneminde kemik yapımı çok hızlıdır, bu dönemde artan kalsiyum ihtiyacını 
+                                karşılamanın en iyi yolu, emilebilir kalsiyum içeriği yüksek olan süt ve süt 
+                                ürünleri tüketimini artırmaktır. 1 bardak süt = 240 mg. kalsiyum, 30 gr (1 
+                                kibrit kutusu) peynir 147 mg. kalsiyum,1 kase yoğurt 330 mg. kalsiyum 
+                                içermektedir. Kalsiyum tüketimiyle kemik yoğunluğu arasında sıkı bir ilişki 
+                                vardır. Kemik yoğunluğunun en üst noktaya ulaştığı 25-30 yaşlarına kadar 
+                                tüketilen kalsiyum, kemik yoğunluğunun artmasını sağlamakta, böylece sonraki 
+                                yaşlarda görülen osteoporozun erken görülme riskini azaltmaktadır. Kalsiyum, 
+                                kemik yapımından başka kanın pıhtılaşması, sinir iletiminin sağlanması ve kalp 
+                                atımının denetlenmesi için gereklidir.ğ*
+                                
+                    </ContentTemplate>
+                    <Triggers>
+                    </Triggers>
+                </asp:UpdatePanel>
+            </div>
+            </asp:ContentPlaceHolder>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+         <div class="sidenav">
+         <div class="sitemap">
+            <asp:SiteMapPath ID="SiteMapPath1" runat="server" Font-Names="Verdana" 
+                 Font-Size="0.8em" PathSeparator=" : ">
+                <NodeStyle ForeColor="#7C6F57" Font-Size="Small" Font-Bold="True"/>
+                <RootNodeStyle ForeColor="#5D7B9D" Font-Bold="True" />
+                <PathSeparatorStyle Font-Bold="True" ForeColor="#5D7B9D" />
+                <CurrentNodeStyle ForeColor="#333333" />
+            </asp:SiteMapPath>
+            <hr />
+         </div>
+         <br />
+        </div>
+        
+        </asp:ContentPlaceHolder>
+       
+        
+        <div class="clearer"></div>
+    </div>
+        <div class="footer">
+        © 2009 Takış Gıda  Powered by <a href="http://www.fatihyildizhan.com" title="DoXa">DoXa</a>
+        </div>  
+    </div>
+    </form>
+</body>
+</html>
