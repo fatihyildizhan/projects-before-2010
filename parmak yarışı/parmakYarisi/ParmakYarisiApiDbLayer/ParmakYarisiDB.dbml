@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="7Renk-ParmakYarisi" Class="ParmakYarisiDBDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=mssql01.turhost.com;Initial Catalog=7Renk-ParmakYarisi;Persist Security Info=True;User ID=barnakCocuk" SettingsObjectName="ParmakYarisiApiDbLayer.Properties.Settings" SettingsPropertyName="_7Renk_ParmakYarisiConnectionString1" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.City" Member="Cities">
+    <Type Name="City">
+      <Column Name="CityID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="CityName" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="CityRequiredLevelID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="City_UserDetail" Member="UserDetails" ThisKey="CityID" OtherKey="UserCityID" Type="UserDetail" />
+    </Type>
+  </Table>
+  <Table Name="dbo.UserDetail" Member="UserDetails">
+    <Type Name="UserDetail">
+      <Column Name="UserDetailID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="UserID" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+      <Column Name="UserXP" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="UserPoint" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="UserLevelID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="UserCityID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="City_UserDetail" Member="City" ThisKey="UserCityID" OtherKey="CityID" Type="City" IsForeignKey="true" />
+      <Association Name="Level_UserDetail" Member="Level" ThisKey="UserLevelID" OtherKey="LevelID" Type="Level" IsForeignKey="true" />
+      <Association Name="User_UserDetail" Member="User" ThisKey="UserID" OtherKey="UserID" Type="User" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Language" Member="Languages">
+    <Type Name="Language">
+      <Column Name="LanguageID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="LanguageName" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="LanguageCountry" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="LanguageSummary" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="LanguageImgLink" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Association Name="Language_Sentence" Member="Sentences" ThisKey="LanguageID" OtherKey="SentenceLanguageID" Type="Sentence" />
+    </Type>
+  </Table>
+  <Table Name="dbo.[Level]" Member="Levels">
+    <Type Name="Level">
+      <Column Name="LevelID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="LevelName" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="LevelRequiredXP" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="Level_UserDetail" Member="UserDetails" ThisKey="LevelID" OtherKey="UserLevelID" Type="UserDetail" />
+    </Type>
+  </Table>
+  <Table Name="dbo.RecordAccuracy" Member="RecordAccuracies">
+    <Type Name="RecordAccuracy">
+      <Column Name="RecordAccuracyID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="UserID" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+      <Column Name="SentenceID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="RecordDate" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="RecordScore" Type="System.Decimal" DbType="Decimal(3,1) NOT NULL" CanBeNull="false" />
+      <Association Name="Sentence_RecordAccuracy" Member="Sentence" ThisKey="SentenceID" OtherKey="SentenceID" Type="Sentence" IsForeignKey="true" />
+      <Association Name="User_RecordAccuracy" Member="User" ThisKey="UserID" OtherKey="UserID" Type="User" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.RecordTime" Member="RecordTimes">
+    <Type Name="RecordTime">
+      <Column Name="RecordSpeedID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="UserID" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+      <Column Name="SentenceID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="RecordDate" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="RecordScore" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="Sentence_RecordTime" Member="Sentence" ThisKey="SentenceID" OtherKey="SentenceID" Type="Sentence" IsForeignKey="true" />
+      <Association Name="User_RecordTime" Member="User" ThisKey="UserID" OtherKey="UserID" Type="User" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.RecordWPM" Member="RecordWPMs">
+    <Type Name="RecordWPM">
+      <Column Name="RecordWPMID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="UserID" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+      <Column Name="SentenceID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="RecordDate" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="RecordScore" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="Sentence_RecordWPM" Member="Sentence" ThisKey="SentenceID" OtherKey="SentenceID" Type="Sentence" IsForeignKey="true" />
+      <Association Name="User_RecordWPM" Member="User" ThisKey="UserID" OtherKey="UserID" Type="User" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Sentence" Member="Sentences">
+    <Type Name="Sentence">
+      <Column Name="SentenceID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="SentenceText" Type="System.String" DbType="Text NOT NULL" CanBeNull="false" UpdateCheck="Never" />
+      <Column Name="SentenceLanguageID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="SentenceDescriptionID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="Sentence_RecordAccuracy" Member="RecordAccuracies" ThisKey="SentenceID" OtherKey="SentenceID" Type="RecordAccuracy" />
+      <Association Name="Sentence_RecordTime" Member="RecordTimes" ThisKey="SentenceID" OtherKey="SentenceID" Type="RecordTime" />
+      <Association Name="Sentence_RecordWPM" Member="RecordWPMs" ThisKey="SentenceID" OtherKey="SentenceID" Type="RecordWPM" />
+      <Association Name="Language_Sentence" Member="Language" ThisKey="SentenceLanguageID" OtherKey="LanguageID" Type="Language" IsForeignKey="true" />
+      <Association Name="SentenceDescription_Sentence" Member="SentenceDescription" ThisKey="SentenceDescriptionID" OtherKey="SentenceDescriptionID" Type="SentenceDescription" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.SentenceDescription" Member="SentenceDescriptions">
+    <Type Name="SentenceDescription">
+      <Column Name="SentenceDescriptionID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Source" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Association Name="SentenceDescription_Sentence" Member="Sentences" ThisKey="SentenceDescriptionID" OtherKey="SentenceDescriptionID" Type="Sentence" />
+    </Type>
+  </Table>
+  <Table Name="dbo.[User]" Member="Users">
+    <Type Name="User">
+      <Column Name="UserID" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="UserEmail" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="UserPassword" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="UserName" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="UserSurname" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="UserNickname" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="UserBirthDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="UserGender" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="UserCreationDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Association Name="User_UserDetail" Member="UserDetails" ThisKey="UserID" OtherKey="UserID" Type="UserDetail" />
+      <Association Name="User_RecordAccuracy" Member="RecordAccuracies" ThisKey="UserID" OtherKey="UserID" Type="RecordAccuracy" />
+      <Association Name="User_RecordTime" Member="RecordTimes" ThisKey="UserID" OtherKey="UserID" Type="RecordTime" />
+      <Association Name="User_RecordWPM" Member="RecordWPMs" ThisKey="UserID" OtherKey="UserID" Type="RecordWPM" />
+    </Type>
+  </Table>
+</Database>

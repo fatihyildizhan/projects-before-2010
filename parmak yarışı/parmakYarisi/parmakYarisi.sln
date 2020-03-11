@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "parmakYarisi", "parmakYarisi\parmakYarisi.csproj", "{E5DFA80B-46EB-448C-9ADE-33A525E47893}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParmakYarisiApiDbLayer", "ParmakYarisiApiDbLayer\ParmakYarisiApiDbLayer.csproj", "{BE443545-08BD-4367-A23F-78EE89783487}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParmakYarisiApiExceptionLayer", "ParmakYarisiApiExceptionLayer\ParmakYarisiApiExceptionLayer.csproj", "{0EF66ADF-74CA-461F-8049-AAE13A8E3B70}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E5DFA80B-46EB-448C-9ADE-33A525E47893}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{E5DFA80B-46EB-448C-9ADE-33A525E47893}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{E5DFA80B-46EB-448C-9ADE-33A525E47893}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{E5DFA80B-46EB-448C-9ADE-33A525E47893}.Debug|x86.ActiveCfg = Debug|x86
+		{E5DFA80B-46EB-448C-9ADE-33A525E47893}.Debug|x86.Build.0 = Debug|x86
+		{E5DFA80B-46EB-448C-9ADE-33A525E47893}.Release|Any CPU.ActiveCfg = Release|x86
+		{E5DFA80B-46EB-448C-9ADE-33A525E47893}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{E5DFA80B-46EB-448C-9ADE-33A525E47893}.Release|Mixed Platforms.Build.0 = Release|x86
+		{E5DFA80B-46EB-448C-9ADE-33A525E47893}.Release|x86.ActiveCfg = Release|x86
+		{E5DFA80B-46EB-448C-9ADE-33A525E47893}.Release|x86.Build.0 = Release|x86
+		{BE443545-08BD-4367-A23F-78EE89783487}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE443545-08BD-4367-A23F-78EE89783487}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE443545-08BD-4367-A23F-78EE89783487}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{BE443545-08BD-4367-A23F-78EE89783487}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{BE443545-08BD-4367-A23F-78EE89783487}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{BE443545-08BD-4367-A23F-78EE89783487}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE443545-08BD-4367-A23F-78EE89783487}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE443545-08BD-4367-A23F-78EE89783487}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{BE443545-08BD-4367-A23F-78EE89783487}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{BE443545-08BD-4367-A23F-78EE89783487}.Release|x86.ActiveCfg = Release|Any CPU
+		{0EF66ADF-74CA-461F-8049-AAE13A8E3B70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EF66ADF-74CA-461F-8049-AAE13A8E3B70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EF66ADF-74CA-461F-8049-AAE13A8E3B70}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{0EF66ADF-74CA-461F-8049-AAE13A8E3B70}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{0EF66ADF-74CA-461F-8049-AAE13A8E3B70}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{0EF66ADF-74CA-461F-8049-AAE13A8E3B70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EF66ADF-74CA-461F-8049-AAE13A8E3B70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EF66ADF-74CA-461F-8049-AAE13A8E3B70}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{0EF66ADF-74CA-461F-8049-AAE13A8E3B70}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{0EF66ADF-74CA-461F-8049-AAE13A8E3B70}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 14.25" name="ParmakYarisiDB">
+  <DataContextMoniker Name="/ParmakYarisiDBDataContext" />
+  <nestedChildShapes>
+    <classShape Id="e89cd579-2535-46b6-ae98-a09cc6b1fc12" absoluteBounds="3.5, 10.375, 2, 1.3862939453124987">
+      <DataClassMoniker Name="/ParmakYarisiDBDataContext/City" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1817aa2e-d520-4144-bbcc-2200814962f3" absoluteBounds="3.515, 10.835, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="68356f16-ecee-4297-a11f-0f01d823edd9" absoluteBounds="6.25, 10.25, 2, 1.9631982421874987">
+      <DataClassMoniker Name="/ParmakYarisiDBDataContext/UserDetail" />
+      <nestedChildShapes>
+        <elementListCompartment Id="63cf63e4-fd5c-49a0-a3e8-1cf942117c4d" absoluteBounds="6.265, 10.71, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="43500f20-4300-4587-82bf-cfeb5bcf1ca8" absoluteBounds="0.75, 0.75, 2, 1.7708968098958327">
+      <DataClassMoniker Name="/ParmakYarisiDBDataContext/Language" />
+      <nestedChildShapes>
+        <elementListCompartment Id="dd492c59-270c-4ee7-90ee-2fce4779fc76" absoluteBounds="0.765, 1.21, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="479be789-9750-4425-9510-c0b2c275d29e" absoluteBounds="3.5, 12.625, 2, 1.3862939453124987">
+      <DataClassMoniker Name="/ParmakYarisiDBDataContext/Level" />
+      <nestedChildShapes>
+        <elementListCompartment Id="9ceaebbe-0915-4d6c-b843-521a997ddf20" absoluteBounds="3.515, 13.085, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="361ecec8-40ce-4897-a1da-2440e85ccddb" absoluteBounds="6.25, 3.75, 2, 1.7708968098958327">
+      <DataClassMoniker Name="/ParmakYarisiDBDataContext/RecordAccuracy" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f3d0596b-ce43-4a88-8d83-ee218c49c669" absoluteBounds="6.265, 4.21, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="d98f2d74-f1af-47bd-9b2a-9aaf3de92c9a" absoluteBounds="6.25, 0.75, 2, 1.7708968098958327">
+      <DataClassMoniker Name="/ParmakYarisiDBDataContext/RecordTime" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f4d52fa6-8b87-4f73-9b83-c212bef639a2" absoluteBounds="6.265, 1.21, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="d9774c84-d7ce-4376-887f-99a34560c1ce" absoluteBounds="6.25, 6.75, 2, 1.7708968098958327">
+      <DataClassMoniker Name="/ParmakYarisiDBDataContext/RecordWPM" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3c0aad03-3cfd-468f-9818-24b22de56675" absoluteBounds="6.265, 7.21, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="3c1c3532-9c33-43fa-8f70-6fc173909571" absoluteBounds="3.5, 3.875, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/ParmakYarisiDBDataContext/Sentence" />
+      <nestedChildShapes>
+        <elementListCompartment Id="29ca4e0c-7d26-4db0-ac6a-63eeca8b5ec1" absoluteBounds="3.515, 4.335, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="ce7cdc4f-62b3-4b37-be35-34bec8c7ed9d" absoluteBounds="0.75, 4, 2, 1.1939925130208327">
+      <DataClassMoniker Name="/ParmakYarisiDBDataContext/SentenceDescription" />
+      <nestedChildShapes>
+        <elementListCompartment Id="99e63b8a-0315-471e-b7a4-1b2b2438bacd" absoluteBounds="0.765, 4.46, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="47d7bd44-6dc4-4654-8bf8-64fbe3221e18" absoluteBounds="3.5, 6.875, 2, 2.5401025390624996">
+      <DataClassMoniker Name="/ParmakYarisiDBDataContext/User" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4dce2034-bb8a-4231-bcfe-dc5c00dd45d8" absoluteBounds="3.515, 7.335, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(5.5 : 11.0681469726562); (5.79166666666667 : 11.0681469726562 : JumpStart); (5.95833333333333 : 11.0681469726562 : JumpEnd); (6.25 : 11.0681469726562)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/ParmakYarisiDBDataContext/City/City_UserDetail" />
+      <nodes>
+        <classShapeMoniker Id="e89cd579-2535-46b6-ae98-a09cc6b1fc12" />
+        <classShapeMoniker Id="68356f16-ecee-4297-a11f-0f01d823edd9" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 13.3181469726562); (7.25 : 13.3181469726562); (7.25 : 12.2131982421875)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/ParmakYarisiDBDataContext/Level/Level_UserDetail" />
+      <nodes>
+        <classShapeMoniker Id="479be789-9750-4425-9510-c0b2c275d29e" />
+        <classShapeMoniker Id="68356f16-ecee-4297-a11f-0f01d823edd9" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 4.66429768880208); (5.97916666666667 : 4.66429768880208 : JumpStart); (6.20833333333333 : 4.66429768880208 : JumpEnd); (6.25 : 4.66429768880208)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/ParmakYarisiDBDataContext/Sentence/Sentence_RecordAccuracy" />
+      <nodes>
+        <classShapeMoniker Id="3c1c3532-9c33-43fa-8f70-6fc173909571" />
+        <classShapeMoniker Id="361ecec8-40ce-4897-a1da-2440e85ccddb" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(4.5 : 3.875); (4.5 : 1.63544840494792); (6.25 : 1.63544840494792)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/ParmakYarisiDBDataContext/Sentence/Sentence_RecordTime" />
+      <nodes>
+        <classShapeMoniker Id="3c1c3532-9c33-43fa-8f70-6fc173909571" />
+        <classShapeMoniker Id="d98f2d74-f1af-47bd-9b2a-9aaf3de92c9a" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 5.45359537760417); (5.875 : 5.82859537760417); (5.875 : 7.63544840494792); (6.25 : 7.63544840494792)]" fixedFrom="NotFixed" fixedTo="Algorithm">
+      <AssociationMoniker Name="/ParmakYarisiDBDataContext/Sentence/Sentence_RecordWPM" />
+      <nodes>
+        <classShapeMoniker Id="3c1c3532-9c33-43fa-8f70-6fc173909571" />
+        <classShapeMoniker Id="d9774c84-d7ce-4376-887f-99a34560c1ce" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 2.07817260742187); (3.9687475 : 2.07817260742187); (3.9687475 : 3.875)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/ParmakYarisiDBDataContext/Language/Language_Sentence" />
+      <nodes>
+        <classShapeMoniker Id="43500f20-4300-4587-82bf-cfeb5bcf1ca8" />
+        <classShapeMoniker Id="3c1c3532-9c33-43fa-8f70-6fc173909571" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 4.59699625651042); (3.5 : 4.59699625651042)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/ParmakYarisiDBDataContext/SentenceDescription/SentenceDescription_Sentence" />
+      <nodes>
+        <classShapeMoniker Id="ce7cdc4f-62b3-4b37-be35-34bec8c7ed9d" />
+        <classShapeMoniker Id="3c1c3532-9c33-43fa-8f70-6fc173909571" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 9.4151025390625); (5.875 : 9.7901025390625); (5.875 : 11.6719246074219); (6.25 : 11.6719246074219)]" fixedFrom="NotFixed" fixedTo="Algorithm">
+      <AssociationMoniker Name="/ParmakYarisiDBDataContext/User/User_UserDetail" />
+      <nodes>
+        <classShapeMoniker Id="47d7bd44-6dc4-4654-8bf8-64fbe3221e18" />
+        <classShapeMoniker Id="68356f16-ecee-4297-a11f-0f01d823edd9" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 6.90884515384615); (5.81607443490112 : 6.59277071894503 : JumpStart); (5.93392556509888 : 6.47491958874727 : JumpEnd); (6.125 : 6.28384515384615); (6.125 : 4.17589684440104); (6.25 : 4.17589684440104)]" fixedFrom="NotFixed" fixedTo="Algorithm">
+      <AssociationMoniker Name="/ParmakYarisiDBDataContext/User/User_RecordAccuracy" />
+      <nodes>
+        <classShapeMoniker Id="47d7bd44-6dc4-4654-8bf8-64fbe3221e18" />
+        <classShapeMoniker Id="361ecec8-40ce-4897-a1da-2440e85ccddb" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 6.90422976923077); (5.81607443490112 : 6.58815533432965 : JumpStart); (5.93392556509888 : 6.47030420413189 : JumpEnd); (6.0625 : 6.34172976923077); (6.0625 : 2.10942460742187); (6.25 : 2.10942460742187)]" fixedFrom="NotFixed" fixedTo="Algorithm">
+      <AssociationMoniker Name="/ParmakYarisiDBDataContext/User/User_RecordTime" />
+      <nodes>
+        <classShapeMoniker Id="47d7bd44-6dc4-4654-8bf8-64fbe3221e18" />
+        <classShapeMoniker Id="d98f2d74-f1af-47bd-9b2a-9aaf3de92c9a" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 8.14067260742187); (6.25 : 8.14067260742187)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/ParmakYarisiDBDataContext/User/User_RecordWPM" />
+      <nodes>
+        <classShapeMoniker Id="47d7bd44-6dc4-4654-8bf8-64fbe3221e18" />
+        <classShapeMoniker Id="d9774c84-d7ce-4376-887f-99a34560c1ce" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
